@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & models (adjust as needed)
+*.csv
+*.xlsx
+*.parquet
+*.joblib
+*.h5
+*.pt
+*.pkl
+
+# Ignore compiled models/cache
+model/__pycache__/
+utils/__pycache__/

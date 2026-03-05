@@ -1,0 +1,18 @@
+Model Evaluation Metrics (Test Set)
+========================================
+
+              precision    recall  f1-score   support
+
+ Non-Dropout       0.89      0.92      0.90       601
+     Dropout       0.82      0.76      0.79       284
+
+    accuracy                           0.87       885
+   macro avg       0.85      0.84      0.85       885
+weighted avg       0.87      0.87      0.87       885
+
+
+Accuracy: 0.8678
+Precision: 0.8151
+Recall: 0.7606
+F1-score: 0.7869
+ROC-AUC: 0.9034
